@@ -59,6 +59,15 @@ hr#line{
     border: none; /* Remove the default border */
   
 }
+hr#line2{
+  display: inline-grid;
+  height: 4px;
+  background-color: #333;
+  border: none;
+  margin: 6px 0;
+  width: 30px;
+
+}
 .main{
   display: grid;
   margin: 2rem;
