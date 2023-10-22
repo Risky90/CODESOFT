@@ -73,3 +73,17 @@ hr#line2{
   margin: 2rem;
   grid-template-columns: repeat(2, 50%);
 }
+
+.skill{
+  background: darkgray;
+  width: fit-content;
+  padding: 6px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 8px;
+}
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5rem;
+}
