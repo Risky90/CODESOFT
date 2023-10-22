@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    /* border-radius: .3rem; */
+    /* border: solid; */
     padding: 0;
   }
   
@@ -9,8 +11,9 @@ body {
     color: #fff;
     display: flex;
     align-items: flex-start;
-    text-align: center;
+    /* text-align: center; */
     padding: 20px;
+
   }
   #my-image{
     height: 10rem;
@@ -20,11 +23,33 @@ body {
   }
   header div{
     margin: 0;
-    padding: 2rem 0 0rem 2rem
+    padding: 0rem 0 0rem 2rem;
   }
   header h1 {
-    /* margin: 0; */
-    /* padding: 2rem 0 0rem 2rem */
-    /* align-content: center; */
+    margin: 0;
+    /* padding: 2rem 0 0rem 2rem; */
+    display: flex;
+    align-content: center;
   }
-  
+  header p{
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  #links {
+     /* width: 50%; */
+     height: 15rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     padding: 0px 0rem 0 0rem;
+     flex-wrap: wrap;
+     align-content: space-around;
+     align-items: flex-start;
+}
+#links a{
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  padding: 12px 0px 19px 0px;
+}
